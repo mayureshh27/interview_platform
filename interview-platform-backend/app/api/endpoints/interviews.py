@@ -8,7 +8,8 @@ from app.schemas.interview import (
     InterviewCreate, InterviewUpdate, InterviewResponse, 
     AnalysisResponse, AnalysisSummary
 )
-from app.services.webrtc import webrtc_service
+from app.services.webrtc import WebRTCService
+
 from app.models.interview import Interview, InterviewStatus
 from app.models.analysis import Analysis
 from app.models.user import User
