@@ -1,0 +1,1 @@
+pip install fastapi uvicorn sqlalchemy psycopg2-binary pydantic pydantic-settings aiortc deepface opencv-python python-multipart alembic
